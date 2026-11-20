@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- テスト用ダミーWXR。実在の記事・個人情報は一切含みません。 -->
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+  <title>ダミーユーザーのnote（テスト用）</title>
+  <link>https://note.com/dummy_user</link>
+  <description>テスト用フィクスチャ</description>
+  <wp:wxr_version>1.2</wp:wxr_version>
+
+  <item>
+    <title>ダミー記事1：見出しと画像と引用のテスト</title>
+    <link>https://note.com/dummy_user/n/ndummy0000001</link>
+    <pubDate>Sat, 01 Nov 2026 09:00:00 +0900</pubDate>
+    <dc:creator>dummy_user</dc:creator>
+    <guid isPermaLink="false">https://note.com/dummy_user/n/ndummy0000001</guid>
+    <description></description>
+    <content:encoded><![CDATA[<h2>はじめに</h2>
+<p>これは<strong>ダミー記事</strong>です。本文に<a href="https://example.com/docs">外部リンク</a>を含みます。</p>
+<figure><img src="https://example.com/images/dummy1.png" alt="ダミー画像1"></figure>
+<blockquote><p>引用のダミーテキストです。</p></blockquote>
+<h3>手順</h3>
+<ul>
+<li>まず確認する</li>
+<li>次に<strong>実行</strong>する</li>
+<li>結果を記録する</li>
+</ul>
+<p>締めの段落です。</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>101</wp:post_id>
+    <wp:post_date>2026-11-01 09:00:00</wp:post_date>
+    <wp:comment_status>open</wp:comment_status>
+    <wp:status>publish</wp:status>
+    <wp:post_type>post</wp:post_type>
+    <category domain="post_tag" nicename="test"><![CDATA[テスト]]></category>
+    <category domain="post_tag" nicename="sample"><![CDATA[サンプル]]></category>
+  </item>
+
+  <item>
+    <title>ダミー記事2：コードと表のテスト（有料）</title>
+    <link>https://note.com/dummy_user/n/ndummy0000002</link>
+    <pubDate>Sun, 02 Nov 2026 10:30:00 +0900</pubDate>
+    <dc:creator>dummy_user</dc:creator>
+    <guid isPermaLink="false">https://note.com/dummy_user/n/ndummy0000002</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>インラインの<code>print()</code>を含む段落です。</p>
+<pre><code class="language-python">def hello():
+    print("hello, dummy")
+</code></pre>
+<p>表はHTMLのまま残ります。</p>
+<table>
+<thead><tr><th>項目</th><th>値</th></tr></thead>
+<tbody><tr><td>ダミーA</td><td>100</td></tr>
+<tr><td>ダミーB</td><td>200</td></tr></tbody>
+</table>
+<p><img src="https://example.com/images/dummy2.jpg" alt="ダミー画像2"></p>
+<ol>
+<li>番号つきリスト1</li>
+<li>番号つきリスト2</li>
+</ol>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>102</wp:post_id>
+    <wp:post_date>2026-11-02 10:30:00</wp:post_date>
+    <wp:comment_status>open</wp:comment_status>
+    <wp:status>publish</wp:status>
+    <wp:post_type>post</wp:post_type>
+    <category domain="post_tag" nicename="code"><![CDATA[コード]]></category>
+    <wp:postmeta>
+      <wp:meta_key>price</wp:meta_key>
+      <wp:meta_value><![CDATA[500]]></wp:meta_value>
+    </wp:postmeta>
+  </item>
+
+  <item>
+    <title>ダミー記事3：ファイル名に使えない文字/：*？のテスト</title>
+    <link>https://note.com/dummy_user/n/ndummy0000003</link>
+    <pubDate>Mon, 03 Nov 2026 12:00:00 +0900</pubDate>
+    <dc:creator>dummy_user</dc:creator>
+    <guid isPermaLink="false">https://note.com/dummy_user/n/ndummy0000003</guid>
+    <description></description>
+    <content:encoded><![CDATA[<p>埋め込みを含む記事のダミーです。</p>
+<iframe src="https://example.com/embed/dummy" width="560" height="315"></iframe>
+<p>以上です。</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>103</wp:post_id>
+    <wp:post_date>2026-11-03 12:00:00</wp:post_date>
+    <wp:comment_status>open</wp:comment_status>
+    <wp:status>publish</wp:status>
+    <wp:post_type>post</wp:post_type>
+  </item>
+
+</channel>
+</rss>

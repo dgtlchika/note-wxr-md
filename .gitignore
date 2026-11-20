@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+build/
+dist/
+*.egg-info/
+
+# 変換の出力先や実エクスポートを誤ってコミットしないための保険
+out/
+output/
+*.wxr
+!tests/fixtures/*.wxr

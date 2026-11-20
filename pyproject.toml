@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "note-wxr-md"
+version = "0.1.0"
+description = "note公式エクスポート (WXR/ZIP) を記事ごとのMarkdownへ一括変換する、差分バックアップ特化の軽量CLI"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "dgtlchika" }]
+keywords = ["note", "wxr", "markdown", "backup", "export"]
+
+[project.scripts]
+note-wxr-md = "note_wxr_md:main"
+
+[tool.setuptools]
+py-modules = ["note_wxr_md"]
