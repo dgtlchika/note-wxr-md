@@ -173,3 +173,15 @@ on one thing — a lightweight, Japanese-documented, backup-oriented converter
 that is easy to install and re-run on a schedule.
 
 This tool works **only on your own export file**; it never logs in or scrapes.
+
+---
+
+## 作者について
+
+このツールは「デジタル地下室」が、自分のブログ運用で実際に困ったことを解消するために作ったものです。同じ困りごとの解説や、作った過程は note に書いています。
+
+- note（デジタル地下室）: https://note.com/sumaho_lab
+- X: https://x.com/dgtl_chika
+- GitHub: https://github.com/dgtlchika
+
+不具合報告・要望は Issue へどうぞ。確認して対応します。
